@@ -10,6 +10,8 @@ sec_msg = ""
 ORG_MSG = ""
 
 # loop through each character in sample string
+# subtract 23 from each unicode in order to convert three digit unicode to two digit 
+# to iterate through loop two steps at a time
 for char in samp_string:
    
    # check for spaces and substitute in string 
@@ -25,6 +27,7 @@ for char in samp_string:
 print("Secret Message:", sec_msg)
 
 # loop secret string from index 0 till end of string and increment each time with 2
+# add 23 in each unicode to convert them back in original unicodes
 for i in range(0, len(sec_msg)-1, 2):
     
     # print space, if 0 detected in string
