@@ -1,5 +1,5 @@
-# Fibonacci series
-# 1, 1, 2, 3, 5, 8, 13
+# Fibonacci number
+# EXAMPLE FIBONACCI OF 4 = 3
 
 num = int(input("ENTER NUMBER: "))
 
