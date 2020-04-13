@@ -1,4 +1,5 @@
 # write and read from a file
+# read 1 line at a time
 
 # wrtie on a file
 with open("mydata.txt", mode="w", encoding="utf-8") as myfile:
